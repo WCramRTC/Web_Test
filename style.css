@@ -3,10 +3,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f5f5f5;
 }
 
 h1 {
     text-align: center;
+    color: #333;
 }
 
 h2 {
@@ -15,6 +17,7 @@ h2 {
 
 p {
     margin: 10px 0;
+    color: #444;
 }
 
 table {
@@ -24,7 +27,7 @@ table {
 }
 
 th, td {
-    border: 1px solid #333;
+    border: 2px solid #333; /* Solid and bold borders */
     padding: 8px;
     text-align: center;
 }
@@ -32,4 +35,13 @@ th, td {
 th {
     background-color: #333;
     color: white;
+}
+
+/* Adding some color to table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
 }
